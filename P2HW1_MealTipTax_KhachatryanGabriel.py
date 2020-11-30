@@ -22,7 +22,7 @@ tip = charge * tipRate
 tax = charge * taxRate
 
 # Display the calculated tip, tax, and the total cost of the meal
-print("tip:", tip)
-print("tax:", tax)
-print("total charge:", charge + tip + tax)
+print("tip: $", '{:.2f}'.format(tip), sep="")
+print("tax: $", '{:.2f}'.format(tax), sep="")
+print("total charge: $", '{:.2f}'.format(charge + tip + tax), sep="")
 
